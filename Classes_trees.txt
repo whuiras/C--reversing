@@ -1,0 +1,408 @@
+ActivableSpecialMajorModule
+├── CryoCapsule
+└── DustFactory
+
+AgeControlTextField
+└── KeyBindingTextField
+
+AgePrimitiveLabel
+├── GUIComparingLabel
+└── GuiSkillLevelLabel
+
+Amplitude.Unity.Audio.AudioEmitter
+└── AudioEmitter
+
+Amplitude.Unity.Audio.AudioManager
+└── AudioManager
+
+Amplitude.Unity.Audio.AudioReceiver
+└── AudioReceiver
+
+Amplitude.Unity.Framework.Application
+└── DungeonsApplication
+
+Amplitude.Unity.Framework.BackgroundImageBootstrapper
+└── BackgroundImageBootstrapper
+
+Amplitude.Unity.Framework.Behaviour
+└── AudioReceiverLocator
+
+Amplitude.Unity.Framework.CommandLineArguments
+└── CommandLineArguments
+
+Amplitude.Unity.Game.Game
+└── Game
+
+Amplitude.Unity.Game.GameManager
+└── GameManager
+
+Amplitude.Unity.Game.PlayerController
+└── PlayerController
+
+Amplitude.Unity.Gui.GuiManager
+
+Amplitude.Unity.Gui.GuiModalManager
+└── GuiModalManager
+
+Amplitude.Unity.Gui.GuiPanel
+└── GuiPanel
+    ├── AutoCloseGuiPanel
+    ├── ChatPanel
+    ├── ConstructionControlPanel
+    ├── ConstructionModeDestructionPane
+    ├── ConstructionModeInitialPane
+    ├── ConstructionModePlacementPane
+    ├── ConstructionModeSelectionPane
+    ├── CrystalLiftPanel
+    ├── DisclaimerPanel
+    ├── DustBarPanel
+    ├── EndLevelPanel
+    ├── EndingPanel
+    ├── GameMenuPanel
+    ├── GameOverPanel
+    ├── GamePausePanel
+    ├── GuiItemHeroEffectPanel
+    ├── HeroActiveSkillsPanel
+    ├── HeroBiographyPanel
+    ├── HeroEquipementBasePanel
+    ├── HeroHighScorePortraitPanel
+    ├── HeroListPanel
+    ├── HeroPanel
+    ├── HeroPlayerNamePanel
+    ├── HighscoresPanel
+    ├── InteractivityLockedPanel
+    ├── InventoryListPanel
+    ├── LoadingPanel
+    ├── LogPanel
+    ├── MainMenuPanel
+    ├── MouseManagePanel
+    ├── MoviePanel
+    ├── NotificationPanel
+    ├── SkillEffectPanel
+    ├── StatsPanel
+    ├── TabBasePanel
+    ├── TurnPanel
+    ├── TutorialInteractivePanel
+    ├── TutorialPagePanel
+    ├── TutorialPanel
+    ├── VictoryPanel
+    ├── VisibilityToggleGuiPanel
+    └── XboxMainMenuPanel
+
+Amplitude.Unity.Gui.GuiScreen
+└── GuiScreen
+    ├── GameLoadingScreen
+    ├── MainGameScreen
+    └── MainMenuScreen
+
+Amplitude.Unity.Gui.GuiTooltipManager
+└── GuiTooltipManager
+
+Amplitude.Unity.Gui.SimulationEffect.SimulationEffectParser
+└── SimulationEffectParser
+
+Amplitude.Unity.Localization.LocalizationManager
+└── LocalizationManager
+
+Amplitude.Unity.Runtime.Runtime
+└── Runtime
+
+Amplitude.Unity.Runtime.RuntimeManager
+└── RuntimeManager
+
+Amplitude.Unity.Serialization.SerializationManager
+└── SerializationManager
+
+Amplitude.Unity.Session.Session
+
+Amplitude.Unity.Session.SessionManager
+└── SessionManager
+
+Amplitude.Unity.Steam.SteamManager
+└── SteamManager
+
+Amplitude.Unity.Steam.SteamNetworkingManager
+└── SteamNetworkingManager
+
+Amplitude.Unity.View.CameraManager
+└── CameraManager
+
+Amplitude.Unity.View.Cursor
+└── DungeonCursor
+
+Amplitude.Unity.View.CursorManager
+└── CursorManager
+
+Amplitude.Unity.View.CursorTarget
+└── CursorTarget
+    ├── ArtifactSelectCursorTarget
+    ├── CamDragSupportCursorTarget
+    ├── DoorCursorTarget
+    ├── HeroCursorTarget
+    ├── NPCCursorTarget
+    └── SpecialModuleCursorTarget
+
+Amplitude.Unity.View.View
+├── GameLoadingView
+├── GameView
+├── OutGameView
+└── View
+
+Amplitude.Unity.View.ViewManager
+└── ViewManager
+
+DepthRangesConfig<ProbabilityWeightDepthRangeConfig>
+
+DestroyerByCondition
+├── DestroyerIfNoAlbum
+├── DestroyerIfNoMultiplayer
+├── DestroyerIfNotSteam
+├── DestroyerIfNotXBoxOne
+└── DestroyerIfXBoxOne
+
+DestroyerByControlScheme
+├── DestroyerIfMouseKeyboard
+└── DestroyerIfXB1Controller
+
+DynamicEventConfig
+├── DynamicDungeonEventConfig
+├── DynamicRoomEventConfig
+└── SteleTypeEventConfig
+
+FiniteState
+├── GameState
+├── RuntimeState
+└── SessionState
+    ├── SessionState_ClientConnected
+    ├── SessionState_ClientConnecting
+    ├── SessionState_ClientDisconnected
+    ├── SessionState_Opened
+    ├── SessionState_OpenedAndCounting
+    ├── SessionState_OpenedAndLaunched
+    ├── SessionState_OpenedAndLaunching
+    ├── SessionState_OpenedAndReady
+    ├── SessionState_Opening
+    └── SessionState_Synchronizing
+
+GameClientMessage
+├── GameClientAuthTicketMessage
+├── GameClientChatMessage
+├── GameClientDownloadGameMessage
+├── GameClientInitiateConnectionMessage
+├── GameClientLeaveMessage
+├── GameClientPostOrderMessage
+├── GameClientPostOrderResponseMessage
+├── GameClientRPCMessage
+└── GameClientStateMessage
+
+GameClientState where T
+└── GameClientState<T>
+
+GameInterface
+
+GameSelectable
+├── CrystalSelectable
+├── DoorSelectable
+├── HeroSelectable
+├── MerchantSelectable
+├── ModuleSelectable
+└── SpecialMajorModuleSelectable
+
+GameServerState where T
+└── GameServerState<T>
+
+GuiModalPanel
+
+GuiPanelFeature
+├── GuiBluePrintTooltip
+├── GuiHeroSelectionTooltip
+├── GuiItemHeroTooltip
+├── GuiSkillTooltip
+├── PanelFeatureDescription
+└── PanelFeatureEffects
+    └── PanelFeatureEffects_DescriptorProvider
+
+LevelRangeConfig
+└── DepthRangeConfig
+    ├── DepthRangesConfig<T> where T
+    ├── MinMaxValueDepthRangeConfig
+    └── ProbabilityWeightDepthRangeConfig
+
+MaxTotalValueDepthRangesConfig<T> where T
+└── MinRoomSurfaceMaxTotalValueDepthRangesConfig<T>
+
+MonoBehaviour
+├── AGEScrollableTableHelper
+├── AGESelectableCategorySetter
+├── AGESelectionMarker
+├── AIPath
+├── AITarget
+├── AchievementManagerDOTE
+├── AgeTransformAutoCenter
+├── AgeTransformConfigSwitchByControlScheme
+├── AgeTransformConfigSwitchByPlatform
+├── Album
+├── AnimVariance
+├── ApproachCamera
+├── AssetPreloader
+├── AstarDebugger
+├── AstarPath
+├── AttackProjectile
+├── Attacker
+├── BPItem
+├── CameraDragSupport
+├── CameraPosShaderExport
+├── ChatManager
+├── Cheats
+├── CombatExcluderDetector
+├── CompetitorSlot
+├── ConstructibleModuleItem
+├── ConstructionCategoryItem
+├── ControlBindingLine
+├── DLCController
+├── DLCIcon
+├── Door
+├── DoorPlug
+├── DoorStep
+├── DungeonGenerator2
+├── DungeonStaticBatchingUtilityComponent
+├── DungeonStatisticsElement
+├── DynamicTextureLoader
+├── Ending
+├── EndingEntity
+├── FIDSLootFeedbackItem
+├── FloorTile
+├── FogOfWarZone
+├── ForceForwardDir
+├── FullscreenSetter
+├── GPUGlobalTimeManager
+├── GameDebug
+├── GameNetworkManager
+├── GameObjectPoolManager
+├── GameResolutionAgeScaler
+├── GameResolutionCamera
+├── GameSessionLine
+├── GameToScreenPositionSync
+├── GuiEffectItem
+├── GuiEffectMapper
+├── Health
+├── HealthValue
+├── HeroItem
+├── HeroSelectionItem
+├── HeroSkillsPadLine
+├── HighscoreItem
+├── HxDungeonMeshPacker
+├── HxRoomToDungeonMeshPacker
+├── InputModeHider
+├── InputTester
+├── Lift
+├── LiftCrystal
+├── LiftHero
+├── LightBlockerToLightManager
+├── LightManagerDebugger
+├── LightShaderExport
+├── LightToLightManager
+├── LightToLightManagerAdder
+├── MPSaveLine
+├── MainMenuCamera
+├── MaterialConfigHelper
+├── MaterialRenderQueueSetter
+├── MobDustLoot
+├── ModuleSlot
+├── ModuleSlotHighlightItem
+├── Mover
+├── NavMeshRenderer
+├── NavmeshController
+├── OffscreenMarker
+├── OrthoProjMatrix
+├── PictureAchievementUnlock
+├── Player
+├── PlayerLine
+├── PlayerTransferLine
+├── PrivateGameConfigManager
+├── RoomCenter
+├── RoomDefenseSpot
+├── RoomDetector
+├── RoomDustLootVFX
+├── RoomElement
+├── RoomEnergyItem
+├── RoomLight
+├── RoomPowerVFX
+├── RoomProp
+├── RoomRoof
+├── RotatingModuleCollider
+├── Rotator
+├── ScaleOnStart
+├── Seeker
+├── SelectContentByShipConfig
+├── SelectableManager
+├── ShipSelectionCamera
+├── SkillEffectItem
+├── SkillItem
+├── SpriteAnimationDefaultSetter
+├── SpriteAnimationRuntime
+├── SpriteAnimationRuntime2
+├── SpriteAnimationTest
+├── SpriteController
+├── SpriteController2
+├── SpriteRendererToLightManager
+├── SpriteVariance
+├── StatItem
+├── SteleParticleColor
+├── SteleTimerPanel
+├── StoryDialogManager
+├── SubVfxController
+├── TacticalMapElement
+├── TemplateCommon
+├── TemplateCommonShape
+├── TemplateManager
+├── TemplatePack
+├── TemplateShapeSelector
+├── TextMeshModifier
+├── TextureVariance
+├── TransferableHero
+├── TriggerDebug
+├── TutorialManager
+├── TutorialMarker
+├── Tween
+├── UniqueID
+├── UpdateGenerator
+├── UpdateManager
+├── VFXOptimizer
+├── VFXOptimizerManager
+├── VFXTester
+├── VFXZone
+├── WorldPosGUI
+├── XBoxOneAudio
+└── YLocalPositionAutoSetter
+
+MonoModifier
+└── RadiusModifier
+
+RoomSelectable
+├── RoomForBuildSelectable
+└── RoomForMoveSelectable
+
+ScriptableObject
+└── SpriteAnimation
+
+SerializableData
+├── DungeonPersistentGameData
+└── UserProfileData
+
+SimMonoBehaviour
+├── Dungeon
+├── HeroMobCommon
+├── Item
+├── NPC
+├── Room
+└── Skill
+    ├── ActiveSkill
+    └── PassiveSkill
+
+SimulationObjectWrapper
+├── Inventory
+└── InventoryItem
+
+SteamAchievementManager
+└── SteamAchivementManagerDOTE
